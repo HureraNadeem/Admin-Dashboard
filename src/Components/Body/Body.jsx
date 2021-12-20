@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from "reactstrap";
-import OrderDetails from "./API/OrdersDetails";
-import IncomingPOrders from "./API/IncomingPOrders";
-import TopSelling from "./API/TopSelling";
+import OrderDetails from "./APIs/OrdersDetails";
+import IncomingPOrders from "./APIs/IncomingPOrders";
+import TopSelling from "./APIs/TopSelling";
 import "./Body.css";
 
 function Body() {
@@ -27,7 +27,6 @@ function Body() {
             payment_status: {
                 background: "#eedbff",
                 color: "#7000FF"
-
             }
         },
         {
