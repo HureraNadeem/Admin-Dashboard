@@ -1,0 +1,44 @@
+#logo_heading {
+  text-align: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+  padding-top: 26px;
+
+  color: #0043f1;
+}
+.navbar_div,
+.body_div {
+  margin: 10px -35px 0px 0px;
+}
+.body_div {
+  padding-left: 0px !important;
+  background-color: #f5f7fb;
+}
+
+.Quick_links {
+  background-color: #003AD2;
+  height: 60px;
+  width: 54px;
+  position: absolute;
+  right: 0;
+  float: right;
+  z-index: 9999;
+  top: 318px;
+}
+.Quick_links > svg {
+  margin: auto;
+}
+.Quick_links > span {
+  /* font-family: Proxima Nova; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #ffffff;
+}

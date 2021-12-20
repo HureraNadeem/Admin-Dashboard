@@ -1,0 +1,114 @@
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  height: 70px;
+}
+
+* {
+  color: #1f4173;
+}
+
+.Navbar_container {
+  display: flex;
+  align-items: center;
+}
+
+.navbarSvg {
+  /* Vector */
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 12.5%;
+  bottom: 12.5%;
+  color: #1f4173;
+}
+
+.Nav_links,
+.Nav_text {
+  /* Sales Orders */
+  position: static;
+  height: 17px;
+  left: 31px;
+  top: 3.8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #1f4173;
+  opacity: 0.5;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 3px 25px;
+  margin-right: 0px;
+}
+.progress_div {
+  padding-top: 9px;
+}
+.progress_text {
+  padding-left: 0 !important;
+}
+.progress_text > p {
+  font-weight: normal;
+  opacity: 1;
+  padding-left: 0 !important;
+}
+.progress_bar {
+  height: 5.5px;
+}
+
+.button-tooltip-2 {
+  right: 50px;
+}
+.searchbar {
+  background-color: #acc3e512;
+  padding-left: 50px;
+  border-radius: 5px !important;
+}
+.test {
+  top: 8.5px;
+}
+.search-icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 9999;
+}
+.dropIconInSearch {
+  position: absolute;
+  top: 19px;
+  left: 14px;
+}
+.dropIconInSearch > svg {
+  margin-left: 25px;
+  position: absolute;
+  top: -2px;
+  margin-left: 4px;
+}
+.bell_div {
+  margin-top: 10px;
+}
+.profilePic {
+  border-radius: 50%;
+  display: block;
+  margin-top: 3px;
+  margin-left: -22px;
+}
+
+#user_name {
+  margin-top: 16px;
+  margin-left: 22px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 17px;
+  display: block;
+  text-align: center;
+  font-weight: normal;
+  opacity: 1;
+
+  color: #1f4173;
+}
